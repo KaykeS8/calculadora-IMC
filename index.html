@@ -9,5 +9,27 @@
 </head>
 <body>
     
+    <main>
+        <div class="container">
+            <div class="title">Calculadora - IMC</div>
+            <div class="input">
+                <label for="nome">Nome</label>
+                <input type="text" name="nome" id="nome" data-calc="nome">
+            </div>
+            <div class="input">
+                <label for="altura">Altura</label>
+                <input type="number" name="altura" id="altura" data-calc="altura">
+            </div>
+            <div class="input">
+                <label for="peso">Peso</label>
+                <input type="number" name="peso" id="peso" data-calc="peso">
+            </div>
+            <input type="submit" value="Calcular" data-calc="calcular">
+
+            <div class="result" data-calc="resultado"></div>
+        </div>
+    </main>
+
+    <script src="scripts/script.js" type="module"></script>
 </body>
 </html>
